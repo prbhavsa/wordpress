@@ -13,7 +13,7 @@ function ub_publication_custom_post_type()
 	$labels = array(
 		'name'                  =>  _x('UB Publications', 'Post type general name','UB_Publications' ),
 		'singular_name'         =>  _x('UB Publication', 'Post type singular name', 'UB_Publications'),
-		'menu_name'             =>  _x('Publications', 'admin menu', 'UB_Publications'),
+		'menu_name'             =>  _x('GIT Publications', 'admin menu', 'UB_Publications'),
 		'name_admin_bar'        =>  _x('UB Publication', 'add new on admin bar', 'UB_Publications'),
 		'add_new'               =>  _x('Add New Publication', 'UB_Publication', 'UB_Publications'),
 		'add_new_item'          =>  __('Add New Publication','UB_Publications'),
@@ -66,7 +66,7 @@ function ub_publication_categories_taxonomy(){
 		'view_item'          => __( 'View Category' ),
 		'search_items'       => __( 'Search Categories' ),
 		'not_found'          => __( 'Category not found' ),
-		'menu_name'          => 'Categories'
+		'menu_name'          => 'GIT Categories'
 	);
 
 	$args = array(
