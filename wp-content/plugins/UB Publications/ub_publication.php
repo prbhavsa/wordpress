@@ -13,11 +13,7 @@ function ub_publication_custom_post_type()
 	$labels = array(
 		'name'                  =>  _x('UB Publications', 'Post type general name','UB_Publications' ),
 		'singular_name'         =>  _x('UB Publication', 'Post type singular name', 'UB_Publications'),
-<<<<<<< HEAD
-		'menu_name'             =>  _x('Publications', 'admin menu', 'UB_Publications'),
-=======
 		'menu_name'             =>  _x('GIT1 Publications', 'admin menu', 'UB_Publications'),
->>>>>>> aa6b678e070b0dc7a24a879696d19ad46dab1ebb
 		'name_admin_bar'        =>  _x('UB Publication', 'add new on admin bar', 'UB_Publications'),
 		'add_new'               =>  _x('Add New Publication', 'UB_Publication', 'UB_Publications'),
 		'add_new_item'          =>  __('Add New Publication','UB_Publications'),
