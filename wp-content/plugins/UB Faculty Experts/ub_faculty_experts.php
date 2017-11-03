@@ -13,7 +13,7 @@ function ub_faculty_experts_custom_post_type()
 	$labels = array(
 		'name'                  =>  _x('UB Faculty Experts', 'Post type general name','UB' ),
 		'singular_name'         =>  _x('UB Faculty Expert', 'Post type singular name', 'UB'),
-		'menu_name'             =>  _x('Faculty Experts', 'admin menu', 'UB'),
+		'menu_name'             =>  _x('Git1 Faculty Experts', 'admin menu', 'UB'),
 		'name_admin_bar'        =>  _x('UB Faculty Expert', 'add new on admin bar', 'UB'),
 		'add_new'               =>  _x('Add New Faculty Expert', 'UB', 'UB'),
 		'add_new_item'          =>  __('Add New Faculty Expert','UB'),
